@@ -7,6 +7,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from './src/Screens/Home.js';
 import Detalhes from './src/Screens/Detalhes.js';
+import Sobre from './src/Screens/Sobre.js';
+import Contato from './src/Screens/Contato.js';
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
@@ -14,7 +16,8 @@ const Stack = createNativeStackNavigator();
 function MainStack() {
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="Home" component={Home} />
+
+            <Stack.Screen name="HomePrincipal" component={Home} />
             <Stack.Screen name="Detalhes" component={Detalhes} />
         </Stack.Navigator>
     );
@@ -28,12 +31,23 @@ export default function App() {
                     initialRouteName="Home"
                     screenOptions={{
                         headerShown: false,
-                        drawerActiveTintColor: '#005580',
+                        drawerActiveTintColor: '#256aff',
                     }}>
                     <Drawer.Screen
                         name="Home"
                         component={MainStack}
                         options={{ drawerLabel: 'Início' }}
+                    />
+
+                    <Drawer.Screen
+                        name="Sobre"
+                        component={Sobre}
+                        options={{ drawerLabel: 'Sobre o Rio' }}
+                    />
+                    <Drawer.Screen
+                        name="Contato"
+                        component={Contato}
+                        options={{ drawerLabel: 'Contato' }}
                     />
                 </Drawer.Navigator>
             </NavigationContainer>

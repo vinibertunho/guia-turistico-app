@@ -36,9 +36,10 @@ export default function ItemCard({ item, onClick, variant }) {
 
 const styles = StyleSheet.create({
     card: {
-        backgroundColor: '#FFF',
+        backgroundColor: '#ffffff',
         borderRadius: 20,
         marginBottom: 20,
+        height: "28rem",
         overflow: 'hidden',
         elevation: 3,
         shadowColor: '#000',
@@ -48,7 +49,7 @@ const styles = StyleSheet.create({
     },
     image: {
         width: '100%',
-        height: 200,
+        height: 300,
     },
     ratingBadge: {
         position: 'absolute',
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
         padding: 15,
     },
     title: {
-        fontSize: 18,
+        fontSize: 25,
         fontWeight: 'bold',
         color: '#1A1A1A',
     },
