@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
     logoText: {
         fontWeight: 'bold',
         fontSize: 16,
-        color: '#111827',
+        color: '#2c5eca',
         marginLeft: 8,
     },
     avatar: {

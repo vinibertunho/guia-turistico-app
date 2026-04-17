@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView, TouchableOpacity, Linking, Alert } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 
 export default function Detalhes() {
@@ -20,6 +20,20 @@ export default function Detalhes() {
             </View>
         );
     }
+    const abrirMapa = (url) => {
+        if (!url) {
+            Alert.alert('Erro', 'Localização não disponível.');
+            return;
+        }
+
+        Linking.canOpenURL(url).then((supported) => {
+            if (supported) {
+                Linking.openURL(url);
+            } else {
+                Alert.alert('Erro', 'Não foi possível abrir o link do mapa.');
+            }
+        });
+    };
 
     return (
         <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
@@ -46,7 +60,7 @@ export default function Detalhes() {
                     <Text style={styles.infoValue}>{item.categoria || 'Ponto turístico'}</Text>
                 </View>
 
-                <TouchableOpacity style={styles.actionButton}>
+                <TouchableOpacity style={styles.actionButton} onPress={() => abrirMapa(item.loc)}>
                     <Text style={styles.actionButtonText}>Explorar agora</Text>
                 </TouchableOpacity>
             </View>

@@ -6,7 +6,8 @@
             "descricao": "Um dos cartões-postais mais famosos do mundo, com vista panorâmica do Rio de Janeiro.",
             "bairro": "Corcovado",
             "rating": 4.9,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg"
+            "image": "https://offloadmedia.feverup.com/riodejaneirosecreto.com/wp-content/uploads/2023/03/13070645/Cristo-Redentor-curiosidades-scaled.jpg",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.951916,-43.210487"
         },
         {
             "id": 2,
@@ -14,7 +15,8 @@
             "descricao": "Passeio clássico de bondinho com uma das vistas mais bonitas da cidade.",
             "bairro": "Urca",
             "rating": 4.8,
-            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d7/5c/0d/vista-do-morro-da-urca.jpg?w=900&h=500&s=1"
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d7/5c/0d/vista-do-morro-da-urca.jpg?w=900&h=500&s=1",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.949214,-43.156108"
         },
         {
             "id": 3,
@@ -22,45 +24,173 @@
             "descricao": "Escadaria colorida e vibrante, ponto de arte urbana e fotografia no centro do Rio.",
             "bairro": "Lapa",
             "rating": 4.7,
-            "image": "https://images.unsplash.com/photo-1573878730971-4b3c6f0f5d2d?auto=format&fit=crop&w=1200&q=80"
+            "image": "https://www.visitesantateresa.rio/storage/visite-santa-teresa-escadaria-selaron.webp",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.915233,-43.179478"
+        },
+        {
+            "id": 4,
+            "nome": "Museu do Amanhã",
+            "descricao": "Museu de ciências interativo com arquitetura futurista de Santiago Calatrava, focado na sustentabilidade e no futuro do planeta.",
+            "bairro": "Centro (Praça Mauá)",
+            "rating": 4.8,
+            "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwCaiF-E0uYtLGQPkJN83-OUMdbQsWF3T0M1QhrFJm5Y5O1Ej8xZYye__dJTmLum9lyromCPesEWIKTJcfmjfqtv1MRjFmteERK7C2QVF-ukk_nLZYPEVXugsOU6FEts662EmVbISoM9j_/s1600/Museu+do+Amanha.jpg",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.894411,-43.179455"
+        },
+        {
+            "id": 5,
+            "nome": "Forte de Copacabana",
+            "descricao": "Base histórica que oferece um museu militar, uma vista incrível de toda a orla e a tradicional filial da Confeitaria Colombo.",
+            "bairro": "Copacabana",
+            "rating": 4.7,
+            "image": "https://lancamentosrj.com/wp-content/uploads/2024/10/forte-de-copacabana.webp",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.986877,-43.189724"
+        },
+        {
+            "id": 6,
+            "nome": "Praia de Copacabana",
+            "descricao": "A praia mais famosa do mundo, com seu icônico calçadão de pedras portuguesas e clima vibrante dia e noite.",
+            "bairro": "Copacabana",
+            "rating": 4.6,
+            "image": "https://blog.aguiabranca.com.br/wp-content/uploads/2025/05/Copacabana_Beach_Mosaic_and_Palm_Trees-scaled.jpg",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.971594,-43.182705"
+        },
+        {
+            "id": 7,
+            "nome": "Praia de Ipanema",
+            "descricao": "Praia charmosa e sofisticada, famosa por ditar tendências e pelo inesquecível pôr do sol na Pedra do Arpoador.",
+            "bairro": "Ipanema",
+            "rating": 4.9,
+            "image": "https://cdn.sanity.io/images/nxpteyfv/goguides/c5ffa2a13c54cfaa98548bc24b9bf952d65a8540-1600x1066.jpg",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.983637,-43.204557"
+        },
+        {
+            "id": 8,
+            "nome": "Jardim Botânico",
+            "descricao": "Um refúgio ecológico fundado no império, famoso pelas suas imponentes palmeiras imperiais, orquidário e rica biodiversidade.",
+            "bairro": "Jardim Botânico",
+            "rating": 4.8,
+            "image": "https://thumbs.dreamstime.com/b/jardim-botanico-rio-de-janeiro-97316621.jpg",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.967520,-43.224160"
+        },
+        {
+            "id": 9,
+            "nome": "Parque Lage",
+            "descricao": "Lindo parque público aos pés do Corcovado, que abriga um belo palacete romano com piscina e um charmoso café.",
+            "bairro": "Jardim Botânico",
+            "rating": 4.8,
+            "image": "https://invexo.com.br/blog/wp-content/uploads/2023/03/parque-lage-o-que-fazer-no-jardim-botanico-rio-de-janeiro.jpg",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.959247,-43.211910"
+        },
+        {
+            "id": 10,
+            "nome": "Estádio do Maracanã",
+            "descricao": "O templo do futebol brasileiro e mundial, palco de grandes finais de Copa do Mundo e shows inesquecíveis.",
+            "bairro": "Maracanã",
+            "rating": 4.6,
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/42/2d/f6/photo0jpg.jpg?w=900&h=-1&s=1",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.912167,-43.230164"
         }
     ],
     "restaurantes": [
         {
-            "id": 11,
-            "nome": "Maré Alta",
-            "descricao": "Cozinha especializada em peixes e frutos do mar com vista para a orla.",
-            "bairro": "Leblon",
+            "id": 1,
+            "nome": "Aprazível",
+            "descricao": "Cozinha brasileira refinada servida em um casarão rústico-chic com vista deslumbrante para a Baía de Guanabara.",
+            "bairro": "Santa Teresa",
+            "rating": 4.7,
+            "categoria": "Brasileira",
+            "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.919251,-43.185641"
+        },
+        {
+            "id": 2,
+            "nome": "Churrascaria Palace",
+            "descricao": "Tradicional churrascaria carioca ao estilo rodízio com cortes nobres e ambiente Art Déco histórico.",
+            "bairro": "Copacabana",
+            "rating": 4.8,
+            "categoria": "Churrasco",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.966952,-43.180214"
+        },
+        {
+            "id": 3,
+            "nome": "Oteque",
+            "descricao": "Culinária autoral e contemporânea com foco em ingredientes do mar e vegetais. Premiado com duas estrelas Michelin.",
+            "bairro": "Botafogo",
+            "rating": 4.9,
+            "categoria": "Contemporânea",
+            "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.955436,-43.190695"
+        },
+        {
+            "id": 4,
+            "nome": "Satyricon",
+            "descricao": "Sofisticado restaurante especializado em peixes e frutos do mar fresquíssimos, inspirado na culinária mediterrânea.",
+            "bairro": "Ipanema",
             "rating": 4.8,
             "categoria": "Frutos do Mar",
-            "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1200&q=80"
+            "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.984532,-43.197925"
         },
         {
-            "id": 12,
-            "nome": "Sabor da Costa",
-            "descricao": "Pratos cariocas com frutos do mar frescos e ambiente descontraído.",
-            "bairro": "Copacabana",
-            "rating": 4.7,
-            "categoria": "Frutos do Mar",
-            "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80"
-        },
-        {
-            "id": 13,
-            "nome": "Brasa do Rio",
-            "descricao": "Churrascaria com cortes selecionados e atendimento tradicional.",
-            "bairro": "Barra da Tijuca",
-            "rating": 4.9,
-            "categoria": "Churrasco",
-            "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1200&q=80"
-        },
-        {
-            "id": 14,
-            "nome": "Fogo & Pedra",
-            "descricao": "Carnes na brasa, acompanhamentos generosos e clima de família.",
-            "bairro": "Tijuca",
+            "id": 5,
+            "nome": "Bar do Mineiro",
+            "descricao": "Ponto de encontro boêmio famoso pela sua autêntica feijoada, pastéis variados e cachaças artesanais.",
+            "bairro": "Santa Teresa",
             "rating": 4.6,
-            "categoria": "Churrasco",
-            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+            "categoria": "Brasileira",
+            "image": "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.918501,-43.186641"
+        },
+        {
+            "id": 6,
+            "nome": "Marius Degustare",
+            "descricao": "Rodízio exótico e farto de carnes e frutos do mar, em um ambiente com decoração temática e pitoresca.",
+            "bairro": "Leme",
+            "rating": 4.7,
+            "categoria": "Carnes e Frutos do Mar",
+            "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.964723,-43.170659"
+        },
+        {
+            "id": 7,
+            "nome": "Lasai",
+            "descricao": "Experiência gastronômica intimista e sofisticada, utilizando ingredientes frescos das próprias hortas do chef.",
+            "bairro": "Botafogo",
+            "rating": 4.9,
+            "categoria": "Contemporânea",
+            "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.955891,-43.191605"
+        },
+        {
+            "id": 8,
+            "nome": "Garota de Ipanema",
+            "descricao": "Bar e restaurante histórico onde foi composta a famosa canção, muito conhecido pela sua tradicional picanha na chapa.",
+            "bairro": "Ipanema",
+            "rating": 4.5,
+            "categoria": "Bar e Restaurante",
+            "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.984534,-43.200192"
+        },
+        {
+            "id": 9,
+            "nome": "Oro",
+            "descricao": "Cozinha de vanguarda carioca que une a rica culinária brasileira à técnica moderna de preparo no fogo.",
+            "bairro": "Leblon",
+            "rating": 4.9,
+            "categoria": "Contemporânea",
+            "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.982782,-43.220194"
+        },
+        {
+            "id": 10,
+            "nome": "Cipriani",
+            "descricao": "Culinária italiana de altíssima gastronomia localizada dentro do luxuoso e icônico Copacabana Palace.",
+            "bairro": "Copacabana",
+            "rating": 4.8,
+            "categoria": "Italiana",
+            "image": "https://images.unsplash.com/photo-1550461716-41ef281c70e2?auto=format&fit=crop&w=1200&q=80",
+            "loc": "https://www.google.com/maps/search/?api=1&query=-22.967332,-43.178734"
         }
     ]
 }
