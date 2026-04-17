@@ -1,0 +1,66 @@
+{
+    "pontosTuristicos": [
+        {
+            "id": 1,
+            "nome": "Cristo Redentor",
+            "descricao": "Um dos cartões-postais mais famosos do mundo, com vista panorâmica do Rio de Janeiro.",
+            "bairro": "Corcovado",
+            "rating": 4.9,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Pão de Açúcar",
+            "descricao": "Passeio clássico de bondinho com uma das vistas mais bonitas da cidade.",
+            "bairro": "Urca",
+            "rating": 4.8,
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d7/5c/0d/vista-do-morro-da-urca.jpg?w=900&h=500&s=1"
+        },
+        {
+            "id": 3,
+            "nome": "Escadaria Selarón",
+            "descricao": "Escadaria colorida e vibrante, ponto de arte urbana e fotografia no centro do Rio.",
+            "bairro": "Lapa",
+            "rating": 4.7,
+            "image": "https://images.unsplash.com/photo-1573878730971-4b3c6f0f5d2d?auto=format&fit=crop&w=1200&q=80"
+        }
+    ],
+    "restaurantes": [
+        {
+            "id": 11,
+            "nome": "Maré Alta",
+            "descricao": "Cozinha especializada em peixes e frutos do mar com vista para a orla.",
+            "bairro": "Leblon",
+            "rating": 4.8,
+            "categoria": "Frutos do Mar",
+            "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            "id": 12,
+            "nome": "Sabor da Costa",
+            "descricao": "Pratos cariocas com frutos do mar frescos e ambiente descontraído.",
+            "bairro": "Copacabana",
+            "rating": 4.7,
+            "categoria": "Frutos do Mar",
+            "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            "id": 13,
+            "nome": "Brasa do Rio",
+            "descricao": "Churrascaria com cortes selecionados e atendimento tradicional.",
+            "bairro": "Barra da Tijuca",
+            "rating": 4.9,
+            "categoria": "Churrasco",
+            "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            "id": 14,
+            "nome": "Fogo & Pedra",
+            "descricao": "Carnes na brasa, acompanhamentos generosos e clima de família.",
+            "bairro": "Tijuca",
+            "rating": 4.6,
+            "categoria": "Churrasco",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+        }
+    ]
+}

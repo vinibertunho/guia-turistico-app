@@ -1,20 +1,42 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-gesture-handler';
+import React from 'react';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import Home from './src/Screens/Home.js';
+import Detalhes from './src/Screens/Detalhes.js';
+
+const Drawer = createDrawerNavigator();
+const Stack = createNativeStackNavigator();
+
+function MainStack() {
+    return (
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen name="Detalhes" component={Detalhes} />
+        </Stack.Navigator>
+    );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default function App() {
+    return (
+        <GestureHandlerRootView style={{ flex: 1 }}>
+            <NavigationContainer>
+                <Drawer.Navigator
+                    initialRouteName="Home"
+                    screenOptions={{
+                        headerShown: false,
+                        drawerActiveTintColor: '#005580',
+                    }}>
+                    <Drawer.Screen
+                        name="Home"
+                        component={MainStack}
+                        options={{ drawerLabel: 'Início' }}
+                    />
+                </Drawer.Navigator>
+            </NavigationContainer>
+        </GestureHandlerRootView>
+    );
+}
